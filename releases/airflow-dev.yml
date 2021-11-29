@@ -50,7 +50,7 @@ spec:
         enabled: false
       gitSync:
         enabled: true
-        repo: https://github.com/EdwinGuo/airflow-dags.git 
+        repo: https://github.com/teomotun/airflow-dags.git 
         branch: master
         maxFailures: 0
         subPath: ""
