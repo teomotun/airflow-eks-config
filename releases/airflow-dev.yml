@@ -9,13 +9,13 @@ spec:
   releaseName: airflow-dev
     # serviceAccountName: app
   chart:
-    repository: https://edwinguo.github.io/airflow-eks-helm-chart
+    repository: https://teomotun.github.io/airflow-eks-helm-chart
     name: airflow
     version: 1.0.8
   values:
     images:
       airflow:
-        repository: "edwinguo123/docker-eks-airflow"
+        repository: "omotundetolu1/docker-eks-airflow"
         tag: "0.1.3"
     fernetKey: "7CwHL-dZshOoFGicV5DuqPdeEcBKN66SDcI-TfMFPas="
     env:
