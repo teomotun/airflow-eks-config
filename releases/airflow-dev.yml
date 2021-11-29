@@ -16,7 +16,7 @@ spec:
     images:
       airflow:
         repository: "omotundetolu1/docker-eks-airflow"
-        tag: "latest"
+        tag: "1.0.1"
     fernetKey: "7CwHL-dZshOoFGicV5DuqPdeEcBKN66SDcI-TfMFPas="
     env:
       - name: "AIRFLOW__CORE__FERNET_KEY"
