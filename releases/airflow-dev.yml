@@ -55,4 +55,13 @@ spec:
         maxFailures: 0
         subPath: ""
         wait: 60
-
+    plugins:
+      persistence:
+        enabled: false
+      gitSync:
+        enabled: true
+        repo: https://github.com/teomotun/airflow-dags.git
+        branch: main
+        maxFailures: 0
+        subPath: ""
+        wait: 60
