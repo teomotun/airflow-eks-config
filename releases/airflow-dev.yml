@@ -28,7 +28,7 @@ spec:
       - name: "AIRFLOW__KUBERNETES__WORKER_CONTAINER_REPOSITORY"
         value: "omotundetolu1/docker-eks-airflow"
       - name: "AIRFLOW__KUBERNETES__WORKER_CONTAINER_TAG"
-        value: "0.1.3"
+        value: "1.0.2"
       - name: "AIRFLOW__KUBERNETES__RUN_AS_USER"
         value: "50000"
       - name: "AIRFLOW__KUBERNETES__GIT_SYNC_RUN_AS_USER"
