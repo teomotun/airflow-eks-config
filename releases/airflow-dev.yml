@@ -26,7 +26,7 @@ spec:
       - name: "AIRFLOW__KUBERNETES__NAMESPACE"
         value: "dev"
       - name: "AIRFLOW__KUBERNETES__WORKER_CONTAINER_REPOSITORY"
-        value: "edwinguo123/docker-eks-airflow"
+        value: "omotundetolu1/docker-eks-airflow"
       - name: "AIRFLOW__KUBERNETES__WORKER_CONTAINER_TAG"
         value: "0.1.3"
       - name: "AIRFLOW__KUBERNETES__RUN_AS_USER"
