@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+    name: worker
+    namespace: dev
+    annotation:
+      eks.amazonaws.com/role-arn: arn:aws:iam::000565310819:role/EKS_AIRFLOW_WORKER
